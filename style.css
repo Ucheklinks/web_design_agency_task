@@ -30,7 +30,7 @@ h2{
 
 
 footer p {
-  text-align: right;
+ 
   color: gold;
   font-weight: 1000;
 }
@@ -39,6 +39,7 @@ footer p {
   display: inline-block;
   height: 600px;
   width: 600px;
+  margin-bottom: 20px;
 }
 
 .tile-image{
