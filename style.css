@@ -1,181 +1,49 @@
-body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  margin: 50px 50px 0 50px;
-  background-color: #faf9f6;
-  display: flex;
-  flex-direction: column;
-  min-height: 95vh;
-  background-image: url(./assets/images/image3.jpg);
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agency</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <img class="logo" src="./assets/images/logo.png" alt="logo">
+    <div class="hr"><hr></div>
+    <h1>We are a <span >Creative</span> Design Agency</h1>
   
-}
-.main {
-  flex: 1;
-}
+    <div class="left card"><img class="tile-image" src="./assets/images/image1.jpg" alt="hand and flower in water">
+     
+      <h2 class="card-title">Beauty</h2>
+      
+      <p class="card-text">We strive to create the most beautiful websites for all your needs. Working closely with you
+        to
+        design and
+        develop an amazing website for your business.</p>
+    </div>
 
-
-p{
-  color: #faf9f6;
-  font-weight: 900;
-  color:gold;
-}
-
-
-h1 {
-  font-size: 5rem;
-  
-}
-
-h2{
-  font-weight: bolder;
-  color:white;
-}
-
-
-
-footer p {
- margin-top:20px;
-  color: gold;
-  font-weight: 1000;
-}
-
-.card{
-  display: inline-block;
-  height: 600px;
-  width: 600px;
-  margin-bottom: 20px;
-}
-
-.tile-image{
-  height: 50%;
-  width:50%;
-  margin:0;
-  
-  
-}
-
-.left{
-  float: left;
-}
-
-.right{
-  float: right;
-}
-
-span{
-  color: #F39F5A;
-}
-
-
-
-@media (max-width:480px){
- 
-  h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .card{
-    display: block;
-    height: 400px;
-    width: 100%;
-  }
-
-  .tile-image{
-    width: 100%;
-    display: block;
-    float: none;
-    margin: 0;
-  }
-
-  .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card-title{
-    text-align: center;
-  }
-
-  p{
-    text-align: center;
-  }
-
-}
-
-@media (min-width:481px) and (max-width: 1200px){   
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
+    <div class="right card"><img class="tile-image" src="./assets/images/image5.jpg" alt="metal structure">
     
-  }
+      <h2 class="card-title">Construction</h2>
+      <p>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from
+        scratch using HTML and CSS. Only the best for you.</p>
+    </div>
 
-  .logo{
-    display: block;
-    
-  }
- .card{
-  display: inline-block;
-  height: 100%;
-  width: 48%;
- 
+  </div>
+  <footer>
+    <p>.Create. Develop. Design.</p>
+  </footer>
+</body>
 
- }
-
- .tile-image{
-  width: 50%;
- }
- 
-}
-
-@media (min-width:1201px) and (max-width: 1600px){
-  .card{
-    display: inline-block;
-    height: 100%;
-    width: 48%;
-  }
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-
-  .logo{
-    display: block;
-    
-  }
-
-  .tile-image{
-    width: 90%;
-    float: left;
-  }
-
- 
-
-}
-
-@media (min-width:1601px){
-  .card{
-    display: inline-block;
-    height: 100%;
-    width: 50%;
-}
-
-h1 {
-  font-size: 5rem;
-  text-align: center;
-}
-
-}
- 
-  
-
-  
-
-
-
-
-
-
-
-
-
+</html>
