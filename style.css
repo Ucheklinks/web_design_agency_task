@@ -13,6 +13,7 @@ body {
 }
 .card > p{
   max-width: 500px;
+  color:white;
 }
 p{
   color: #faf9f6;
@@ -27,6 +28,7 @@ h1 {
 
 h2{
   font-weight: bolder;
+  color:white;
 }
 
 
