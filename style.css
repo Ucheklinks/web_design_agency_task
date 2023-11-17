@@ -11,10 +11,8 @@ body {
 .main {
   flex: 1;
 }
-.card > p{
-  max-width: 500px;
-  color:white;
-}
+
+
 p{
   color: #faf9f6;
   font-weight: 900;
